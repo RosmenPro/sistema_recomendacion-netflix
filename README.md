@@ -62,13 +62,14 @@ nltk.download('wordnet')
 
 El archivo `netflixData.csv` debe contener las siguientes columnas:
 
-- Código de película/serie
-- Título
-- Descripción
-- Director
-- Géneros
-- Reparto
-- País de origen
+-  code = columna [0]  # Código de la película
+-  title = columna [1]  # Título de la película
+-  description = columna[2]  # Descripción de la película
+-  director = columna[3]  # Director de la película
+-  genres = columna[4]  # Géneros de la película
+-  cast = columna[5]  # Reparto de la película
+-  country = columna[6] # País de origen
+
 
 ## Contribuir
 
@@ -140,14 +141,14 @@ nltk.download('wordnet')
 
 The `netflixData.csv` file should contain the following columns:
 
-- Movie/series code
-- Title
-- Description
-- Director
-- Genres
-- Cast
-- Country of origin
-
+-  code = parts[0]  
+-  title = parts[1]
+-  description = parts[2]
+-  director = parts[3]
+-  genres = parts[4]
+-  cast = parts[5] 
+-  country = parts[6] 
+        
 ## Contributing
 
 Contributions are welcome. If you have suggestions or improvements, feel free to create a pull request.
