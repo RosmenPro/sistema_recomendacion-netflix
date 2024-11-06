@@ -74,3 +74,81 @@ El archivo `netflixData.csv` debe contener las siguientes columnas:
 
 Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras, siéntete libre de crear un pull request.
 
+---
+
+# Netflix Movie Recommender
+
+This project is a movie and series recommender based on title similarity, using natural language processing techniques and machine learning. It allows users to enter a movie or series title, and the system generates a list of similar recommendations.
+
+## Features
+
+- Text preprocessing to remove stop words and apply lemmatization.
+- Title similarity calculation using **TF-IDF** and **cosine similarity**.
+- Graphical User Interface (GUI) for easy interaction using **Tkinter**.
+- Database of movies and series obtained from a CSV file.
+
+## Technologies Used
+
+- **Python 3.x**
+- **Tkinter**: For the graphical user interface.
+- **NLTK**: For natural language processing.
+- **scikit-learn**: For TF-IDF vectorization and cosine similarity calculation.
+- **Pandas and Numpy**: For data manipulation.
+
+## Requirements
+
+Before running the project, make sure you have the following packages installed:
+
+```bash
+pip install pandas numpy nltk scikit-learn
+```
+
+Additionally, download the required NLTK resources:
+
+```python
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+```
+
+## Installation
+
+1. Clone this repository or download the files.
+2. Ensure the necessary packages are installed.
+3. Place the `netflixData.csv` file in the correct path in the project.
+
+## Usage
+
+1. Run the main script:
+
+   ```bash
+   python recomendador_netflix.py
+   ```
+
+2. A window will appear, prompting you to enter a movie or series title.
+
+3. Click "Get Recommendations" to receive a list of similar titles.
+
+## Code Structure
+
+- **preprocess_text**: Function that tokenizes, removes stop words, and lemmatizes titles.
+- **get_recommendations**: Generates recommendations based on cosine similarity of processed titles.
+- **get_recommendations_gui**: Creates the graphical user interface to interact with the recommender.
+
+## CSV File
+
+The `netflixData.csv` file should contain the following columns:
+
+- Movie/series code
+- Title
+- Description
+- Director
+- Genres
+- Cast
+- Country of origin
+
+## Contributing
+
+Contributions are welcome. If you have suggestions or improvements, feel free to create a pull request.
+
