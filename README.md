@@ -75,6 +75,13 @@ El archivo `netflixData.csv` debe contener las siguientes columnas:
 
 Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras, siéntete libre de crear un pull request.
 
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Autor
+
+- **Rosmén Valencia** - [PerfilGitHub](https://github.com/RosmenPro)
+
 ---
 
 # Netflix Movie Recommender
@@ -152,4 +159,13 @@ The `netflixData.csv` file should contain the following columns:
 ## Contributing
 
 Contributions are welcome. If you have suggestions or improvements, feel free to create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Author
+
+- **Rosmén Valencia** - [GitHubProfile](https://github.com/RosmenPro)
+
 
